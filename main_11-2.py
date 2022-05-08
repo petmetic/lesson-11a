@@ -20,7 +20,7 @@ while True:
     attempts += 1
     wrong_attempts = +1
 
-    score_data = {"attempts": attempts,
+    score_data = {"attempts": attempts, #novo mesto v kodi
                   "wrong_attempts": wrong_guess,
                   "date": str(datetime.datetime.now()),
                   "name": name_of_player
